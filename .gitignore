@@ -1,0 +1,9 @@
+data/
+got10k_env/
+goturn.caffemodel
+goturn.prototxt
+__pycache__/
+RPT/
+results/
+TracKit/
+reports/
