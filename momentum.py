@@ -67,6 +67,11 @@ class Momentum:
     
     @staticmethod
     def iou(bbox1, bbox2):
+    	"""
+    	Adapted from https://stackoverflow.com/questions/25349178/calculating-percentage-of-bounding-box-overlap-for-image-detector-evaluation
+    	Function to calculate the intersection over union of two bounding boxes
+    	"""   
+    
         bb1 = {
                 "x1" : bbox1[0],
                 "y1" : bbox1[1],
